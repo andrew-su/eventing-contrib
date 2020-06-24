@@ -87,7 +87,7 @@ for DIR in "${API_DIRS_SOURCES_AND_BINDINGS[@]}"; do
 done
 
 # Sources and Bindings
-API_DIRS_SOURCES_AND_BINDINGS=(github/pkg gitlab/pkg )
+API_DIRS_SOURCES_AND_BINDINGS=(github/pkg gitlab/pkg kafka/source/pkg registry/pkg)
 
 for DIR in "${API_DIRS_SOURCES_AND_BINDINGS[@]}"; do
   # generate the code with:
